@@ -1,0 +1,165 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	line-height: 1.5;
+}
+
+footer a {
+	color: white;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+}
+
+.titlebar {
+	text-overflow: ellipsis;
+	background-color: #333;
+	color: white;
+	padding: 10px;
+}
+
+nav {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+}
+
+nav a:nth-of-type(1) {
+	margin-right: 20px;
+	text-decoration: none;
+	cursor: default;
+}
+
+nav a {
+	color: white;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	margin-right: 10px;
+}
+
+.title_brand {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: serif;
+}
+
+.centered {
+	text-align: center;
+}
+
+.results,
+.form {
+	margin: 10px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+}
+
+.form input {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid #333;
+}
+
+.form button, button {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid #333;
+	background-color: #333;
+	color: white;
+}
+
+#current_callsign {
+	display: flex;
+	float: inline-end;
+}
+
+table {
+	border-collapse: collapse;
+	width: 90%;
+	margin: auto;
+}
+
+th, td {
+	border: 1px solid #333;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #333;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: #f2f2f2;
+}
+
+td>a {
+	/* make into a button-type thing */
+	display: inline-block;
+	padding: 4px;
+	margin: 1px;
+	border-radius: 5px;
+	border: 1px solid #333;
+	background-color: #333;
+	color: white;
+	/* remove underline */
+	text-decoration: none;
+}
+
+td>a:hover {
+	background-color: #444;
+	/* add dotted underline */
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	/* show tooltip */
+	cursor: pointer;
+}
+
+
+
+/* Dead Simple Grid (c) 2015 Vladimir Agafonkin */
+/* Licensed under the MIT License: https://mit-license.org */
+.row .row {
+	margin: 0 -1.5em;
+}
+
+.col {
+	padding: 0 1.5em;
+}
+
+.row:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+@media only screen {
+	.col {
+		float: left;
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+/* End Dead Simple Grid */

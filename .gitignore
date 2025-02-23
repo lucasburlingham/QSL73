@@ -1,0 +1,5 @@
+*.zip
+*.dat
+fcc_uls
+callsigns.sqlite
+LICENSES.csv
