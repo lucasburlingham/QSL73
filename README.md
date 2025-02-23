@@ -1,7 +1,5 @@
-# QSL73
-<<<<<<< HEAD
-# QSL73
-# QSL73
-# QSL73
-=======
->>>>>>> 441d65b (first commit)
+# QSL;73
+
+Logger for Hams. Work in progress - this repo does not contain LICENSES.csv or the sqlite db that the logger or search uses.
+
+For single users.
